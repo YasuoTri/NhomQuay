@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+.divtong {
+  width: 100%;
+  height: 1700px;
+}
+/*Danh Sach Cua Hang*/
+.divNgoai {
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+  width: 100%;
+  height: 120px;
+}
+.div1 {
+  width: 100%;
+  height: 33%;
+  text-align: left;
+  background-color: #f1f3f4;
+  padding: 5px 20px;
+}
+
+.div2 {
+  padding: 5px 20px;
+  width: 100%;
+  height: 67%;
+}
+.div2 > div {
+  margin-top: 7px;
+}
+.div2 > div > a {
+  text-decoration: none;
+}
+.div2 > a > i {
+  color: #579aff;
+}
+/*Kien Thuc Dong Ho*/
+/*Ben trai*/
+.divTrai1 {
+  width: 100%;
+  height: 80%;
+}
+.divTrai1 > img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.divTrai2 {
+  background-color: #f8f8f8;
+  text-align: left;
+  padding: 10px;
+}
+.divTrai21 {
+  font-size: 18px;
+}
+.divTrai21 > a {
+  color: black;
+  text-decoration: none;
+}
+.divTrai21 > a:hover {
+  color: #0d6efd;
+}
+.divTrai22 {
+  font-size: 16px;
+  color: #a2a2a2;
+  margin-top: 3px;
+}
+.divTrai23 {
+  font-size: 14px;
+  margin-top: 4px;
+}
+/*Ben Phai*/
+.divPhai1 {
+  width: 100%;
+  height: 100%;
+}
+.divPhai1 > img {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 100%;
+  height: 100%;
+}
+.divPhai2 {
+  width: 100%;
+  height: 100%;
+  padding: 10px 10px;
+}
+.BorderRow {
+  border-radius: 10px;
+}
+.divPhai21 {
+  font-size: 18px;
+}
+.divPhai22 {
+  font-size: 14px;
+}
+.divPhai2 > a {
+  text-decoration: none;
+  color: black;
+}
+.divPhai2:hover > a > .divPhai21 {
+  color: blue;
+}
